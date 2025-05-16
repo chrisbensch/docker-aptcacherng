@@ -1,7 +1,7 @@
 ---
 services:
   apt-cacher-ng:
-    image: sameersbn/apt-cacher-ng:latest
+    image: chrisbensch/docker-aptcacherng:latest
     container_name: apt-cacher-ng
     init: true
     ports:

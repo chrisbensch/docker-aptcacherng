@@ -1,6 +1,7 @@
-FROM ubuntu:jammy
+FROM ubuntu:noble
 
-LABEL maintainer="sameer@damagehead.com"
+LABEL maintainer="chris.bensch@gmail.com"
+#original credit - LABEL maintainer="sameer@damagehead.com"
 
 ENV APT_CACHER_NG_CACHE_DIR=/var/cache/apt-cacher-ng \
     APT_CACHER_NG_LOG_DIR=/var/log/apt-cacher-ng \
