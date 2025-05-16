@@ -1,4 +1,4 @@
-FROM ubuntu:noble
+FROM debian:bookworm-slim@sha256:4b50eb66f977b4062683ff434ef18ac191da862dbe966961bc11990cf5791a8d
 
 LABEL maintainer="chris.bensch@gmail.com"
 #original credit - LABEL maintainer="sameer@damagehead.com"
