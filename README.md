@@ -88,7 +88,6 @@ To run Apt-Cacher NG with Docker Compose, create the following `docker-compose.y
 
 ```yaml
 ---
----
 
 services:
   apt-cacher-ng:
